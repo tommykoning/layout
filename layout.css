@@ -7,13 +7,14 @@ header {
 	width: 94% ;
 	margin: 0px 0px 0px 3% ;
 	display: block; 
-	background-color: rgba(204, 51, 153, 0.7); }
+	background-color: rgba(204, 51, 153, 0.5); }
 
 ul {  
 	list-style-type: none; 
 	display: block;
 	border-style: solid;
-	border-color: black; }
+	border-color: black;
+	text-align: center; }
 
 li {  
 	display: inline;
@@ -25,13 +26,15 @@ section {
 	margin: 25px 0px 25px 3%; 
 	padding: 10px 10px 10px 10px ;
 	display: inline-block;
-	width: 25%; }
+	width: 25%; 
+	height: auto}
 
 p {   
 	color: white; }
 
 #con {  
-	margin: 0px; }
+	margin: 0px;
+	display: inline-block; }
 
 h2 {  
 	color: white; }
@@ -41,3 +44,20 @@ h2 {
 
 a {  
 	color: red; }
+
+.left {  
+	float left: }
+
+#kop { 
+	text-align: center;} 
+
+aside {  
+	float: right;
+	margin: 15px 3% 5px 0px; }
+
+img {  
+	border-style: solid; border-color: purple}
+
+#p1 {  
+	height: 30%; 
+	float: right;}
