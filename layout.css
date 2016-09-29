@@ -18,12 +18,13 @@ ul {
 
 li {  
 	display: inline;
-	padding: 10px 10px 10px 10px}
+	padding: 10px 10px 10px 10px;
+	color: white ;}
 
 section {  
 	background-color: rgba(204, 51, 153, 0.3);
 	border-style: solid; border-color: purple; 
-	margin: 25px 0px 25px 3%; 
+	margin: 25px 30px 25px 3%; 
 	padding: 10px 10px 10px 10px ;
 	display: inline-block;
 	width: 25%; 
@@ -48,6 +49,9 @@ a {
 .left {  
 	float: left; }
 
+.right {  
+	float: right;}
+
 #kop { 
 	text-align: center;} 
 
@@ -61,3 +65,12 @@ img {
 #p1 {  
 	height: 30%; 
 	float: right;}
+
+.game {  
+	text-align: left;}
+
+#game-1 {  
+	width: 30% }
+
+#anime-1 {  
+	width: 30%}
